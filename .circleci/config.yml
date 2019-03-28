@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/hrsf114-front-end-capstone
+    working_directory: ~/news
     docker:
       - image: circleci/node:10.0.0
       - image: mongo:3.4.4
