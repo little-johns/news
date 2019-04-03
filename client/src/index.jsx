@@ -10,9 +10,3 @@ ReactDOM.render(
     <News data={data}/>,
     document.getElementById('news')
 );
-//data={data}
-
-// ReactDOM.render(
-//     <h1>Hello, world!</h1>,
-//     document.getElementById('news')
-//   );

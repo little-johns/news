@@ -86,6 +86,7 @@
 /************************************************************************/
 /******/ ({
 
+<<<<<<< HEAD
 /***/ "./client/src/components/EachNews.jsx":
 /*!********************************************!*\
   !*** ./client/src/components/EachNews.jsx ***!
@@ -122,10 +123,13 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst data = [{name:\"ABC\",\
 
 /***/ }),
 
+=======
+>>>>>>> 4f2677acbb00f072759c889a29719c0cf3922e60
 /***/ "./client/src/index.jsx":
 /*!******************************!*\
   !*** ./client/src/index.jsx ***!
   \******************************/
+<<<<<<< HEAD
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2015,6 +2019,12 @@ eval("/**\n * Copyright 2015, Facebook, Inc.\n * All rights reserved.\n *\n * Th
 
 "use strict";
 eval("\n\nmodule.exports = __webpack_require__(/*! ./lib/React */ \"./node_modules/react/lib/React.js\");\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvcmVhY3QvcmVhY3QuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9ub2RlX21vZHVsZXMvcmVhY3QvcmVhY3QuanM/YjFiNyJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCc7XG5cbm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZSgnLi9saWIvUmVhY3QnKTtcbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBOyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/react/react.js\n");
+=======
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: Cannot find module './myProject/myPreset' from '/Users/junwu/news'\\n    at Function.module.exports [as sync] (/Users/junwu/news/node_modules/resolve/lib/sync.js:58:15)\\n    at resolveStandardizedName (/Users/junwu/news/node_modules/@babel/core/lib/config/files/plugins.js:101:31)\\n    at resolvePreset (/Users/junwu/news/node_modules/@babel/core/lib/config/files/plugins.js:58:10)\\n    at loadPreset (/Users/junwu/news/node_modules/@babel/core/lib/config/files/plugins.js:77:20)\\n    at createDescriptor (/Users/junwu/news/node_modules/@babel/core/lib/config/config-descriptors.js:154:9)\\n    at items.map (/Users/junwu/news/node_modules/@babel/core/lib/config/config-descriptors.js:109:50)\\n    at Array.map (<anonymous>)\\n    at createDescriptors (/Users/junwu/news/node_modules/@babel/core/lib/config/config-descriptors.js:109:29)\\n    at createPresetDescriptors (/Users/junwu/news/node_modules/@babel/core/lib/config/config-descriptors.js:101:10)\\n    at presets (/Users/junwu/news/node_modules/@babel/core/lib/config/config-descriptors.js:47:19)\\n    at mergeChainOpts (/Users/junwu/news/node_modules/@babel/core/lib/config/config-chain.js:320:26)\\n    at /Users/junwu/news/node_modules/@babel/core/lib/config/config-chain.js:283:7\\n    at buildRootChain (/Users/junwu/news/node_modules/@babel/core/lib/config/config-chain.js:120:22)\\n    at loadPrivatePartialConfig (/Users/junwu/news/node_modules/@babel/core/lib/config/partial.js:85:55)\\n    at Object.loadPartialConfig (/Users/junwu/news/node_modules/@babel/core/lib/config/partial.js:110:18)\\n    at Object.<anonymous> (/Users/junwu/news/node_modules/babel-loader/lib/index.js:140:26)\\n    at Generator.next (<anonymous>)\\n    at asyncGeneratorStep (/Users/junwu/news/node_modules/babel-loader/lib/index.js:3:103)\\n    at _next (/Users/junwu/news/node_modules/babel-loader/lib/index.js:5:194)\\n    at /Users/junwu/news/node_modules/babel-loader/lib/index.js:5:364\\n    at new Promise (<anonymous>)\\n    at Object.<anonymous> (/Users/junwu/news/node_modules/babel-loader/lib/index.js:5:97)\\n    at Object._loader (/Users/junwu/news/node_modules/babel-loader/lib/index.js:220:18)\\n    at Object.loader (/Users/junwu/news/node_modules/babel-loader/lib/index.js:56:18)\\n    at Object.<anonymous> (/Users/junwu/news/node_modules/babel-loader/lib/index.js:51:12)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jbGllbnQvc3JjL2luZGV4LmpzeC5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./client/src/index.jsx\n");
+>>>>>>> 4f2677acbb00f072759c889a29719c0cf3922e60
 
 /***/ })
 
