@@ -12,7 +12,7 @@ const newsSchema = new mongoose.Schema({
     title: String,
     body: String,
     name: String,
-    // views: { type: Number, default: 0 },
+    view: Number
   }],
 });
 
