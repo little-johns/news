@@ -1,0 +1,135 @@
+/*
+* === CUSTOM FONTS ==========================================
+*/
+
+@font-face {
+  font-family: DIN Pro;
+  src: url(./fonts/FF_DIN_Pro_Regular_Italic.otf);
+}
+
+@font-face {
+  font-family: DIN Pro;
+  src: url(./fonts/FF_DIN_Pro_Bold_Italic.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: DIN Pro;
+  src: url(./fonts/FF_DIN_Pro_Black_Italic.otf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: DIN Pro;
+  src: url(./fonts/FF_DIN_Pro_Light_Italic.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: DIN Pro;
+  src: url(./fonts/FF_DIN_Pro_Medium_Italic.otf);
+  font-weight: 500;
+}
+
+
+
+/*
+* === GLOBAL CONTAINER =======================================
+*/
+
+#news-container {
+  font-family: Din Pro;
+  width: 680px;
+  display: flex;
+  flex-flow: column;
+  align-content: space-around;
+}
+
+
+
+/*
+* === FIRST ROW - NEWS HEADER ===============================
+*/
+
+#news-header {
+  font-size: 26px;
+  line-height: 30px;
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+#news-show-more {
+  color: #21ce99;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  letter-spacing: 0.25px;
+  text-align: center;
+  margin: 0 7px;
+}
+
+/*
+* === SECOND ROW - NEWS ROW ===============================
+*/
+
+.news-each-news {
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.news-each-news:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.news-image {
+  width: 196px;
+  height: 134px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+#news-text-container {
+  justify-content: space-between;
+}
+
+.news-time {
+  margin-left: 8px;
+  font-size: 11px;
+  line-height: 19px;
+  color: grey;
+}
+
+.news-source {
+  margin: 0;
+  font-size: 11px;
+  line-height: 19px;
+}
+
+.news-title {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.news-body {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.news-view {
+  display: block;
+  margin-top: 20px;
+}
+
+.news-view-tag {
+  margin: 0 5px;
+  font-size: 11px;
+}

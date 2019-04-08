@@ -1,6 +1,6 @@
 import React from 'react';
 import EachNews from './EachNews.jsx'
-
+import style from './assets/main.css'
 
 
 class News extends React.Component{
@@ -44,13 +44,16 @@ class News extends React.Component{
     
     render(){
 
-        return(
-            <div>
-                <h1 style={{marginLeft:15,marginBottom:-5}}>New<a href="#"><span style={{padding:7,float:'right',color:'lightgreen',fontSize:22}}>Show More</span></a></h1><hr></hr>
-                <div>{this.renderNews(this.props.data[0])}</div>
+      return(
+          <div id="news-container">
+            <div id="news-header">
+              <h2 id="news-header">News</h2>
+              <span id="news-show-more">Show More</span>
             </div>
-            
-        )
+            <div>{this.renderNews(this.props.data[0])}</div>
+          </div>
+          
+      )
     }
 }
 export default News;
