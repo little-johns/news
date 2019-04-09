@@ -5,7 +5,7 @@ const db = require('../database/index.js')
 const News = require('../database/dbdata1.js');
 
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
