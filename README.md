@@ -1,39 +1,25 @@
 # Project Name
 
-> Project description
+> Project description: Little-Johns
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/little-johns/Price-Paid-Average-Service
+  - https://github.com/little-johns/stock-chart
+  - https://github.com/little-johns/buy-form
 
-## Table of Contents
+## Installation
+For Development Mode
+npm start 
+npm run start:server
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+For Production Mode
+npm run build
+npm run start:server
 
-## Usage
 
-> Some usage instructions
 
-## Requirements
+## CRUD API
+The component will show news articles based on the spcified stock
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
-
+GET /news/:query
