@@ -10,16 +10,29 @@
 
 ## Installation
 For Development Mode
+```
 npm start 
 npm run start:server
-
+```
 For Production Mode
+```
 npm run build
 npm run start:server
-
+```
 
 
 ## CRUD API
-The component will show news articles based on the spcified stock
+In order to add a news article to our database list of articles:
+```
+POST /news
+```
 
-GET /news/:query
+In order to read a specific news article from our database
+```
+GET /news/:id
+```
+
+In order to change or update a news article from our database
+```
+PATCH /news/:id
+```
