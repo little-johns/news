@@ -20,7 +20,6 @@ class News extends React.Component{
         })
       }
 
-
     filterNews(stock){
         var filterData  = this.props.data.filter(each =>each.name===stock);
         var showNews = filterData.news.map(each=>
